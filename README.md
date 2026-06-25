@@ -1,6 +1,14 @@
 # Real-Time Data Streaming Dashboard
 Data-integration portfolio project aligned to ANZSCO 261312 (Developer Programmer).
 
+## Portfolio Context
+- Full ANZSCO 261312 portfolio landing page: [projects-workspaces](https://github.com/jen-the-dev/projects-workspaces)
+- Application cover letter template: [cover-letter-anzsco-261312.md](https://github.com/jen-the-dev/cicd-automated-infrastructure/blob/main/cover-letter-anzsco-261312.md)
+- Related core showcase repositories:
+  - [cloud-native-task-management-api](https://github.com/jen-the-dev/cloud-native-task-management-api)
+  - [multi-platform-ecommerce-web-app](https://github.com/jen-the-dev/multi-platform-ecommerce-web-app)
+  - [cicd-automated-infrastructure](https://github.com/jen-the-dev/cicd-automated-infrastructure)
+
 ## Problem
 Real-time products must ingest high-frequency external data, update UI responsively, and protect upstream APIs with controlled request patterns.
 
