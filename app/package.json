@@ -2,8 +2,10 @@
   "name": "realtime-data-streaming-dashboard",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "check": "node --check ../functions/proxy.js",
+    "test": "node --test test/**/*.test.js",
     "start": "echo \"Scaffold only: connect this app to Vite, Next.js, or SvelteKit.\""
   },
   "dependencies": {
