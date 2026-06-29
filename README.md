@@ -1,13 +1,9 @@
 # Real-Time Data Streaming Dashboard
-Data-integration portfolio project aligned to ANZSCO 261312 (Developer Programmer).
+Dashboard and ingestion layer for high-frequency external data with responsive UI updates and controlled upstream API usage.
 
-## Portfolio Context
-- Full ANZSCO 261312 portfolio landing page: [projects-workspaces](https://github.com/jen-the-dev/projects-workspaces)
-- Application cover letter template: [cover-letter-anzsco-261312.md](https://github.com/jen-the-dev/cicd-automated-infrastructure/blob/main/cover-letter-anzsco-261312.md)
-- Related core showcase repositories:
-  - [cloud-native-task-management-api](https://github.com/jen-the-dev/cloud-native-task-management-api)
-  - [multi-platform-ecommerce-web-app](https://github.com/jen-the-dev/multi-platform-ecommerce-web-app)
-  - [cicd-automated-infrastructure](https://github.com/jen-the-dev/cicd-automated-infrastructure)
+## Related
+- Shipped work index: [projects-workspaces](https://github.com/jen-the-dev/projects-workspaces)
+- Resume and cover letter: [nz-immigration-application-tracker](https://github.com/jen-the-dev/nz-immigration-application-tracker)
 
 ## Problem
 Real-time products must ingest high-frequency external data, update UI responsively, and protect upstream APIs with controlled request patterns.
@@ -48,12 +44,6 @@ flowchart LR
   - `app/test/proxy.integration.test.js`
 - Run all tests:
   - `cd app && npm test`
-
-## ANZSCO 261312 Competency Evidence
-- **Software development for event-driven systems**: real-time flow handling in `app/src/Dashboard.tsx`.
-- **Systems integration**: proxy orchestration and upstream normalization in `functions/proxy.js`.
-- **Testing and debugging**: unit + integration-style test coverage in `app/test/`.
-- **Operational quality**: CI checks and test automation in `.github/workflows/ci.yml`.
 
 ## Commit Convention
 Use Conventional Commits:
